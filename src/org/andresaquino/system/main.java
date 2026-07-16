@@ -1,36 +1,28 @@
 package org.andresaquino.system;
 
-import JavaCalculadoraFX [main].application.Application;
+import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
- 
- public class main extends Application{
+import org.andresaquino.view.CalculadoraView; // Importación corregida con punto
 
-   public static void main(String[] args) {
+public class main extends Application {
 
-        System.out.println("hola mundo");
+    public static void main(String[] args) {
         launch(args);
-
-    }
-
-    private static void launch(args) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
     public void start(Stage escenarioPrincipal) throws Exception {
+        // Instanciamos la vista
+        CalculadoraView calculadora = new CalculadoraView();
 
-       //nodos
-        VBox raiz = new VBox();
-        //escena
-        Scene escena = new Scene(raiz, 300, 400);
-        //cargar escena y mostrar escenario principal
-        escenarioPrincipal.setTitle("Caliculadora de Andres");
+        // Escena con la vista de la calculadora
+        Scene escena = new Scene(calculadora.getView(), 280, 360);
+
+        // Configuración de la ventana principal
+        escenarioPrincipal.setTitle("Calculadora de Andres");
         escenarioPrincipal.setScene(escena);
+        escenarioPrincipal.setResizable(false);
         escenarioPrincipal.show();
-
     }
-
 }
- 
