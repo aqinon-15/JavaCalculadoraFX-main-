@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/system/main.java</file>
-            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/view/CalculadoraView.java</file>
+            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/controller/CalculadoraController.java</file>
             <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/system/AppLauncher.java</file>
+            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/system/Main.java</file>
+            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/README.java</file>
+            <file>file:/C:/andresaquino/bim_tres/sem_uno/JavaCalculadoraFX/src/org/andresaquino/view/CalculadoraView.java</file>
         </group>
     </open-files>
 </project-private>
